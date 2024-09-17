@@ -8,17 +8,18 @@
   <title>Landing-page 1</title>
   <link rel="stylesheet" href="./src/styles/styles.css">
   <link rel="stylesheet" href="/src/styles/header.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
   <header>
     <nav id="navbar">
-      <i class="fa-solid fa-car-side" id="nav_logo">Lavagens</i>
+      <i class="fa-solid fa-car-side" id="nav-logo">Lavagens</i>
 
       <ul id="nav-list">
-        <li class="nav-item"> <a href="#home"></a> Início </li>
-        <li class="nav-item"> <a href="#menu"></a> Serviços </li>
-        <li class="nav-item"> <a href="#testimonials"></a> Avaliações </li>
+        <li class="nav-item active"> <a href="#home"></a> Início </li>
+        <li class="nav-item active"> <a href="#menu"></a> Serviços </li>
+        <li class="nav-item active"> <a href="#testimonials"></a> Avaliações </li>
       </ul>
 
       <button class="btn-default">
@@ -30,19 +31,63 @@
       </button>
     </nav>
 
-    <div id="mobile_menu">
+    <div id="mobile-menu">
       <ul id="mobile-nav-list">
-        <li class="nav-item"> <a href="#home"></a> Início </li>
-        <li class="nav-item"> <a href="#menu"></a> Serviços </li>
-        <li class="nav-item"> <a href="#testimonials"></a> Avaliações </li>
+        <li class="nav-item "> <a href="#home"></a> Início </li>
+        <li class="nav-item "> <a href="#menu"></a> Serviços </li>
+        <li class="nav-item "> <a href="#testimonials"></a> Avaliações </li>
+        <button class="btn-default">
+          Agende aqui
+        </button>
       </ul>
+
     </div>
-    <button class="btn-default">
-      Agende aqui
-    </button>
+
 
   </header>
 
+  <main id="content">
+    <section id="home">
+      <div class="shape"></div>
+      <div id="cta">
+        <h1> <span> Muito mais que uma limpeza </span> </h1>
+      </div>
+      <p class="description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus sed perferendis quisquam voluptate? Nostrum temporibus odio quidem odit culpa possimus dolore voluptates nisi, vitae ducimus facere eveniet ut fugiat.
+      </p>
+      <div id="cta-button">
+        <a href="" class="btn-deafult">Ver Serviços</a>
+
+        <a href="tel:+61996371397" id="phone-button">
+          <button class="btn-default">
+            <i class="fa-solid fa-phone"></i>
+            (61) 99637-1397
+          </button>
+        </a>
+      </div>
+
+      <div class="social-media-buttons">
+        <a href="https://wa.me/61996371397" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="" target="_blank">
+          <i class="fa-brands fa-instagram "></i>
+        </a>
+
+        <a href="" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div id="banner">
+        <img src="./src/styles/assets/lavagem.png" alt="">
+      </div>
+
+    </section>
+  </main>
+
+  <script src="./src/styles/javascript/scripts.js"></script>
 </body>
 
 </html>
