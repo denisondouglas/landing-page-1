@@ -11,6 +11,10 @@ body {
   background-color: #fff9ea;
 }
 
+section {
+  padding: 28px 8%;
+}
+
 .btn-default {
   border: none;
   display: flex;
@@ -31,4 +35,28 @@ body {
 
 #mobile-btn {
   display: none;
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.social-media-buttons a {
+  align-items: center;
+  text-align: center;
+  width: 45px;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #363636;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3 ease;
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }

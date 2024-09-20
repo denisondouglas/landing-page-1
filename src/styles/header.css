@@ -38,7 +38,8 @@ header {
     display: none;
   }
 
-  #mobile-nav-list #mobile-btn {
+  #mobile-nav-list,
+  #mobile-btn {
     display: block;
     border: none;
     background-color: transparent;
