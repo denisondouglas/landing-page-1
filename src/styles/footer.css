@@ -1,0 +1,21 @@
+footer {
+  background-color: #add8e6;
+}
+
+#footer-itens {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8% 24px 8%;
+}
+
+#copyright {
+  color: #1d1d1d;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
+  #footer-itens {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
